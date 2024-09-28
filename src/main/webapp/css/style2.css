@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+}
+
+#hero {
+    /* background: url('/src/frontend/img/books.png') no-repeat center center/cover; */
+    color: white;
+    /* padding: 100px 0; */
+}
+#heroCarousel .carousel-item {
+    height: 600px;
+   
+}
+
+#heroCarousel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+.card {
+    width: 18rem;
+      margin: 0 auto;
+  
+}
+#featured .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#cta {
+   background: url('../img/cta.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
